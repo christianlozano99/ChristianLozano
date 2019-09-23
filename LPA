@@ -1,6 +1,3 @@
-//Christian Lozano 
-//ch158330
-// COP 3502, Fall 2018
 #include <stdio.h>
 #include <stdlib.h>
 #include "LonelyPartyArray.h"
