@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href = " ..\css\siteCSS.css" rel ="stylesheet">
+	
+</head>
+    <!-- Login fields and buttons-->
+    <canvas id = "c"></canvas>
+    <body>
+        
+        <h1>Registration</h1>
+        <h2>The Matrix Project</h2>
+        <form id = "login_form">
+            <fieldset>
+				<p>
+                    <label>FirstName: </label>
+                    <input type = "text"
+                            id = "firstName"
+                            value = ""
+                            placeholder = "firstname"
+                            size = "25"/>
+                </p>
+				
+				<p>
+                    <label>LastName: </label>
+                    <input type = "text"
+                            id = "lastName"
+                            value = ""
+                            placeholder = "lastname"
+                            size = "25"/>
+                </p>
+				<!--
+                <p>
+                    <label>phoneNumber: </label>
+                    <input type = "text"
+                    id = "number"
+                    value = ""
+                    placeholder = "PhoneNumber"
+                    size = "25"/>
+                </p>
+
+                <p>
+                    <label>UserID: </label>
+                    <input type = "text"
+                    id = "id"
+                    value = ""
+                    placeholder = "userId"
+                    size = "25"/>
+                </p>
+				-->
+				<p>
+                    <label>Username: </label>
+                    <input type = "text"
+                    id = "userName"
+                    value = ""
+                    placeholder = "UserName"
+                    size = "25"/>
+                </p>
+				<p>
+                    <label>Password: </label>
+                    <input type = "password"
+                    id = "password"
+                    value = ""
+                    placeholder = "password"
+                    size = "25"/>
+                </p>
+				<p>
+                    <label>Email: </label>
+                    <input type = "text"
+                            id = "email"
+                            value = ""
+                            placeholder = "emails"
+                            size = "25"/>
+                </p>
+				
+					<span id = "register"></span>
+                    <button type="button" id = "registerButton" class = "buttons" onclick = "register();">Register</button>
+
+                    <a href = "../index.html">
+                    <button type="button">Go Back</button>
+                    </a>
+
+            </fieldset>
+        </form>
+
+        <script src="../JS/matrix.js" type="text/javascript"></script>
+		<script src="../JS/code.js" type="text/javascript"></script>
+		<script src="../JS/md5.js" type="text/javascript"></script>
+    </body>
+</html>

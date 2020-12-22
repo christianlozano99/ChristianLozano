@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href = " ..\css\loggedin.css" rel ="stylesheet">
+    <script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() 
+	{
+		readCookie();
+	}, false);
+	</script>
+
+</head>
+<canvas id = "c"></canvas>
+    <!-- Login fields and buttons-->
+    <body style = "background-color: black;">
+        
+        <h1>The Matrix Project</h1>
+        <h2>Contact Search</h2>
+        <h3 id = "newContactHeader">New Contact</h3>
+        <h4 id = "newContactHeader2">edit contact?</h4>
+        
+        
+        <div class = "search"> 
+            <p>
+            <input type = "text" 
+            id = "searchBar"
+            value=""
+            placeholder="ex. Big Chungus"
+            size = "50"/>
+            
+            
+            <!-- <a href = "SearchResult.html"> -->
+            <!-- class = "searchTerm"-->
+            
+            <button type = "button" id = "searchButton"  class = "buttons" onclick = "read();">Search</button>
+            <span id = "read"></span>
+            <!-- </a> -->
+            </p>
+            
+            
+            <button type = "button" id = "allContactButton"  class = "buttons" onclick = "getContactInfo();" >All Contacts</button>
+            <span id = "contactInfo"></span>
+ 
+            
+            <a href = "addContact.html">
+            <button class="open-button" id = "open" onclick="openForm()" >Create Contact</button>
+            </a>
+            
+            <a href = "deleteContact.html">
+            <button type = "button" id = "deletbutton"  class = "buttons" onclick = "openDeleteEdit();">Delete Contact</button>
+            </a>
+            
+            
+            <button type = "button" id = "deletbutton"  class = "buttons" onclick = "deleteAllContacts();">Delete All Contacts</button>
+            <span id = "deleteAllContacts"></span>
+            
+            
+            <a href = "editcontact.html">
+            <button type = "button" id = "editbutton"  class = "buttons" onclick = "myForm();">Edit Contact</button>
+            </a>
+            
+            <button type = "button" id = "DeleteUser" class = "buttons" onclick = "deleteUser();">Delete Account</button>
+            <span id = "deleteUser"></span>
+            </div>
+        
+        
+        <div class = "topright">
+            <span id = "UsernameField"></span>
+            <a href = "..\index.html">
+                <button type = "button" class = "signout" id = "signOut" onclick = "logout();">Sign Out</button>
+            </a>
+            
+      </div>
+      
+      <ul id = "list">
+            
+      </ul>
+      
+      <ul id = "newList">
+          
+      </ul>
+
+
+
+
+        <script src="../JS/matrix.js" type="text/javascript"></script>
+		<script src="../JS/code.js" type="text/javascript"></script>
+		<script src="../JS/md5.js" type="text/javascript"></script>
+    </body>
+</html>

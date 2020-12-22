@@ -1,0 +1,81 @@
+h1
+{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top : 18%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#login_form
+{
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color : white;
+    font-size: 20px;
+    top: 30%;
+    display: block;
+    width: 27%;
+    border: 3px solid green;
+}
+
+body
+{
+
+    display: grid;
+    text-align: center;
+    z-index: 1;
+    background-color: black;
+}
+
+button
+{
+    width: 50%;
+    font-size: 15px;
+    border: 2px solid green;
+    background: black;
+    color: white;
+}
+
+p
+{
+    text-align: left;
+}
+
+canvas
+{
+    position: absolute;
+    display: block;
+    z-index: -1;
+}
+
+input
+{
+    border: 3px solid green;
+    color: white;
+    background: black;
+    width : 100%;
+}

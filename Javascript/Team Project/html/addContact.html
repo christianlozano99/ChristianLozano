@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href = " ..\css\editCSS.css" rel ="stylesheet">
+    
+    <script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() 
+	{
+		readCookie();
+	}, false);
+	</script>
+    
+</head>
+<canvas id = "c"></canvas>
+
+
+    <!-- Need to get the contact information of the person we searched and set the ids to correspond-->
+    <body style = "background-color: black;">
+
+      <script>
+        function editing()
+        {
+          document.getElementById("newContactForm").style.display = "inline-block";
+        }
+
+    </script>
+        
+        <h1>The Matrix Project</h1>
+        <h2>Contact Information</h2>
+
+        <div class="form-popup" id="myForm">
+            <form class="form-container" id = "newContactForm">
+            <span id = "UsernameField"></span>
+            <p>
+              <label >First Name:</label>
+              <input type = "text"
+                     id = "firstName"
+                     value = ""
+                     placeholder = "First Name"
+                     size = "25"/>
+            </p>
+
+            <p>
+              <label>Last Name:</label>
+              <input type = "text"
+                     id = "lastName"
+                     value = ""
+                     placeholder = "Last Name"
+                     size = "25"/>
+            </p>
+
+            <p>
+              <label>Email:</label>
+              <input type = "text"
+                     id = "email"
+                     value = ""
+                     placeholder = "Email"
+                     size = "25"/>
+            </p>
+
+            <p>
+              <label> Phone:</label>
+              <input type = "text"
+                     id = "number"
+                     value = ""
+                     placeholder = "Phone"
+                     size = "25"/>
+            </p>  
+           
+            <p>
+              <a href = "newLogin.html">
+              <button type="button" id = "addContacts" class="buttons" onclick = "addContact();">Add Contact</button>
+              <span id = "addContacts"></span>
+              </a>
+              
+            <a href="newLogin.html">
+              <button type="button" id = "editButton" class="buttons">Cancle</button>
+            </a>
+
+            </p>
+            </form>
+        </div>
+
+        <script src="../JS/matrix.js" type="text/javascript"></script>
+		<script src="../JS/code.js" type="text/javascript"></script>
+		<script src="../JS/md5.js" type="text/javascript"></script>
+    </body>
+</html>

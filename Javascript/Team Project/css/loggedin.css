@@ -1,0 +1,177 @@
+h1
+{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 23%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+}
+
+h4
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 23.95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+}
+
+body
+{
+    text-align: center;
+    z-index: 1;
+    background-color: black;
+}
+
+.search
+{
+    top: 20%;
+    width: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.searchTerm
+{
+    width: 50%;
+    border: 3px solid green;
+    color:white;
+    background-color: black;
+    padding: 5px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+  
+ 
+  
+.searchButton
+{
+    position: relative;
+    width: 8%;
+    height: 10%;
+    padding:5px;
+    border: 3px solid green;
+    background: black;
+    color: white;
+    display: inline-block;
+    
+}
+
+canvas
+{
+    position: absolute;
+    display: block;
+    z-index: -1;
+}
+
+.form-popup
+{
+    box-sizing: border-box;
+    size: 30;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: right;
+    color : white;
+    font-size: 20px;
+    top: 30%;
+    display: none;
+    width: 17.3%;
+    height: auto;
+    border: 3px solid green;
+}
+
+input
+{
+    border: 3px solid green;
+    width: 10;
+    color: white;
+    background: black;
+}
+
+button
+{
+    border: 3px solid green;
+    background: black;
+    color: white;
+}
+
+
+
+.topright
+{
+    position: absolute;
+    right: 0;
+}
+
+
+
+ul
+{
+        list-style:none;
+    font-size: large;
+    color: white;
+    position: absolute;
+    width: 50%;
+    top: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+span
+{
+    color:white;
+    position:relative;
+}
+
